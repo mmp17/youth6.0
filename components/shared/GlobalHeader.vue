@@ -124,7 +124,6 @@
 
 <script>
 import { mapActions, mapState, mapGetters, mapMutations } from 'vuex'
-import('../../assets/js/script')
 
 export default {
   components: {
