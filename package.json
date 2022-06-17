@@ -1,0 +1,48 @@
+{
+  "name": "youth-community",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "build:prod": "NODE_ENV=production nuxt build",
+    "start": "nuxt",
+    "prod": "NODE_ENV=producti     on nuxt",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:js",
+    "dev": "nuxt dev"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/proxy": "^2.1.0",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.22.0",
+    "cookie-parser": "^1.4.6",
+    "core-js": "^3.15.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
+    "element-ui": "^2.15.2",
+    "node-sass": "^6.0.1",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.15.7",
+    "swiper": "^5.3.7",
+    "vue": "^2.6.14",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-burger-menu": "^2.0.5",
+    "vue-cookies": "^1.8.1",
+    "vue-facebook-login-component": "^4.0.2",
+    "vue-slick": "^1.1.20",
+    "vue-youtube": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "eslint": "^7.29.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "sass": "^1.43.4",
+    "sass-loader": "^10.2.0"
+  }
+}

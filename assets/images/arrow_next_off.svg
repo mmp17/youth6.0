@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.503;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #2e2e2e;
+        stroke-linecap: round;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        opacity: 0.2;
+      }
+    </style>
+  </defs>
+  <g id="그룹_2105" data-name="그룹 2105" class="cls-1" transform="translate(460 1779) rotate(180)">
+    <g id="그룹_2103" data-name="그룹 2103" transform="translate(376.538 1684.77)">
+      <line id="선_1151" data-name="선 1151" class="cls-2" x2="24.852" y2="22.885" transform="translate(0 25.577)"/>
+      <line id="선_1152" data-name="선 1152" class="cls-2" y1="25.577" x2="24.851" transform="translate(0)"/>
+    </g>
+    <path id="패스_13542" data-name="패스 13542" class="cls-3" d="M0,0H140V140H0Z" transform="translate(320 1639)"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+.login-page,
+.signup-page {
+  .el-form {
+    label {
+      display: none;
+    }
+    &-item {
+      margin: 0;
+      &__content {
+        margin-left: 0 !important;
+      }
+    }
+  }
+  @media only screen and (min-width: 769px) {
+    .el-form {
+      label {
+        display: inline-block;
+      }
+      &-item {
+        margin-bottom: 12px;
+        label {
+          width: auto !important;
+        }
+        &__content {
+          margin-left: 90px !important;
+        }
+      }
+    }
+  }
+}

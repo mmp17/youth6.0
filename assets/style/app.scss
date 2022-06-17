@@ -1,0 +1,39 @@
+@import "_variables";
+@import 'reset.scss';
+@import 'global.scss';
+@import 'main.scss';
+@import 'custom-element.scss';
+
+html, body {
+  font-size: 10px;
+  line-height: 1.2;
+}
+img {
+  width: inherit;
+  height: 100%;
+  display: inline-block;
+}
+h1 {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.bm-burger-button {
+  left: auto;
+  right: 18px !important;
+  height: 20px !important;
+  width: 25px !important;
+  top: 21px !important;
+}
+.bm-menu {
+  background-color: #C6C6C6 !important;
+  .bm-item-list>*>span {
+    color: black !important;
+  }
+}
+.bm-cross {
+  background-color: #333333 !important;
+  // background-color: #C6C6C6 !important;
+}
