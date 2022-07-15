@@ -1,6 +1,6 @@
 <template>
   <div class="suggest-page">
-    <span v-if="isChildren==''"><GlobalMain title="정책제안" /></span>
+    <span v-if="isChildren==''"><GlobalMain title="함께 제안해요" /></span>
     <span v-else><GlobalMain title="정책제안 (어린이)" /></span>
     <!-- 정책제안 -->
     <section class="suggest-types">

@@ -1,7 +1,8 @@
 <template>
   <div class="global-header">
     <nuxt-link to="/">
-      <img :src="require(`~/assets/images/top_logo.png`)" class="top_logos">
+      <img  :src="require(`~/assets/images/logo_top.png`)" class="top_logos">
+      <!-- <img :src="require(`~/assets/images/top_logo.png`)" class="top_logos"> -->
     </nuxt-link>
     <SlideMenu
       right
@@ -19,9 +20,9 @@
       <ul id="main-menu">
         <li><a href="#" style="color:black; width:50px;">소개</a>
           <ul id="sub-menu">
-            <li><nuxt-link class="alal" to="/platform-intro" aria-label="subemnu">플랫폼 소개</nuxt-link></li>
+            <li><nuxt-link class="alal" to="/platform-intro" aria-label="subemnu">도란누리란?</nuxt-link></li>
             <li><nuxt-link class="alal" to="/announce-list" aria-label="subemnu">공지사항</nuxt-link></li>
-            <li><nuxt-link class="alal" to="/partners" aria-label="subemnu">천안시 청소년<br>유관기관 소개</nuxt-link></li>
+            <li><nuxt-link class="alal" to="/partners" aria-label="subemnu">천안시 청소년기관</nuxt-link></li>
           </ul>
         </li>
         <li><a href="#" style="color:black">정보</a>
@@ -32,10 +33,8 @@
         </li>
         <li><a href="#" style="color:black">참여</a>
           <ul id="sub-menu">
-            <li><nuxt-link class="alal" to="/excavation-list" aria-label="subemnu"> 의제발굴</nuxt-link></li>
-            <li><nuxt-link class="alal" to="/excavation-list?type=children" aria-label="subemnu">의제발굴 (어린이)</nuxt-link></li>
-            <li><nuxt-link class="alal" to="/suggest-list" aria-label="subemnu">정책제안</nuxt-link></li>
-            <li><nuxt-link class="alal" to="/suggest-list?type=children" aria-label="subemnu">정책제안 (어린이)</nuxt-link></li>
+            <li><nuxt-link class="alal" to="/excavation-list" aria-label="subemnu">함께 고민해요</nuxt-link></li>
+            <li><nuxt-link class="alal" to="/suggest-list" aria-label="subemnu">함께 제안해요</nuxt-link></li>
           </ul>
         </li>
         <li><a href="#" style="color:black">설문</a>
@@ -51,13 +50,13 @@
           <button class="dropbtn">소개</button>
           <div class="dropdown-content">
             <nuxt-link to="/platform-intro">
-              <button class="nav_btn"><p>플랫폼 소개</p></button>
+              <button class="nav_btn"><p>도란누리란?</p></button>
             </nuxt-link>
             <nuxt-link to="/announce-list">
               <button class="nav_btn"><p>공지사항</p></button>
             </nuxt-link>
             <nuxt-link to="/partners">
-              <button class="nav_btn"><p>천안시 청소년<br>유관기관 소개</p></button>
+              <button class="nav_btn"><p>천안시 청소년기관</p></button>
             </nuxt-link>
           </div>
         </div>
@@ -76,16 +75,10 @@
           <button class="dropbtn">참여</button>
           <div class="dropdown-content">
             <nuxt-link to="/excavation-list">
-              <button class="nav_btn"><p>의제발굴</p></button>
-            </nuxt-link>
-            <nuxt-link to="/excavation-list?type=children">
-              <button class="nav_btn"><p>의제발굴 (어린이)</p></button>
+              <button class="nav_btn"><p>함께 고민해요</p></button>
             </nuxt-link>
             <nuxt-link to="/suggest-list">
-              <button class="nav_btn"><p>정책제안</p></button>
-            </nuxt-link>
-            <nuxt-link to="/suggest-list?type=children">
-              <button class="nav_btn"><p>정책제안 (어린이)</p></button>
+              <button class="nav_btn"><p>함께 제안해요</p></button>
             </nuxt-link>
           </div>
         </div>

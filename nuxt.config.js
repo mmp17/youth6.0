@@ -6,7 +6,7 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'YOUTHTORY',
+    title: '도란누리',
     htmlAttrs: {
       lang: 'en'
     },
@@ -58,7 +58,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: process.env.NODE_ENV === 'development' ? 'http://115.85.180.96' : 'https://youthapi.co.kr'
+    baseURL: process.env.NODE_ENV === 'development' ? 'http://115.85.180.96:8080' : 'https://youthapi.co.kr'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -66,4 +66,3 @@ export default {
     transpile: [/^element-ui/]
   }
 }
-

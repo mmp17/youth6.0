@@ -24,7 +24,7 @@
             게시글 작성
           </div>
           <div class="sit3">
-            <input type="text" name="commu_con" v-model="form.commu_con"  placeholder="asfd 작성해주세요." @change="onCommuCon">
+            <input type="text" name="commu_con" v-model="form.commu_con"  placeholder="작성해주세요." @change="onCommuCon">
           </div>
         </section><br>
         <section class="form-row">
@@ -32,7 +32,7 @@
             <p class="files-asd"> 파일첨부</p>
           </div>
         </section>
-        <section id="rowsss" class="form-row">
+        <section id="rowsss" class="">
           <div class="form-group">
             <input type="file" @change="onFileUpload">
           </div>

@@ -2,7 +2,7 @@
   <div class="global-footer">
     <div class="global-footer__inner">
       <div class="footer-logo">
-        <img style="height: 47px;" src="@/assets/images/footer_logo.png" alt="">
+        <img style="height: 77px;" src="@/assets/images/logofooter.svg" alt="">
       </div>
       <div class="terms">
         <p class="links">
@@ -18,7 +18,7 @@
           충청남도 천안시 동남구 태조산길 261 (유량동,태조산청소년수련관) | 전화 : 041-566-0179 | 팩스 : 041-566-0180
         </p>
         <p class="term-txt">
-          Copyright 2021 YOUTHTORY All Rights Reserved.
+          Copyright 2021 도란누리 All Rights Reserved.
         </p>
       </div>
     </div>

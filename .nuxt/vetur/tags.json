@@ -1,0 +1,68 @@
+{
+  "CategoryIcon": {
+    "description": "Auto imported from components/CategoryIcon.vue"
+  },
+  "ExcavationAgree": {
+    "description": "Auto imported from components/ExcavationAgree.vue"
+  },
+  "ExcavationCard": {
+    "description": "Auto imported from components/ExcavationCard.vue"
+  },
+  "ExcavationComments": {
+    "description": "Auto imported from components/ExcavationComments.vue"
+  },
+  "ExcavationDetail": {
+    "description": "Auto imported from components/ExcavationDetail.vue"
+  },
+  "ExcavationDetailParagraph": {
+    "description": "Auto imported from components/ExcavationDetailParagraph.vue"
+  },
+  "ExcavationDetailTitle": {
+    "description": "Auto imported from components/ExcavationDetailTitle.vue"
+  },
+  "FreeboardComments": {
+    "description": "Auto imported from components/FreeboardComments.vue"
+  },
+  "LoginModal": {
+    "description": "Auto imported from components/LoginModal.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "SignUpModal": {
+    "description": "Auto imported from components/SignUpModal.vue"
+  },
+  "SuggestAgree": {
+    "description": "Auto imported from components/SuggestAgree.vue"
+  },
+  "SuggestCard": {
+    "description": "Auto imported from components/SuggestCard.vue"
+  },
+  "SuggestComments": {
+    "description": "Auto imported from components/SuggestComments.vue"
+  },
+  "SuggestDetail": {
+    "description": "Auto imported from components/SuggestDetail.vue"
+  },
+  "SuggestDetailParagraph": {
+    "description": "Auto imported from components/SuggestDetailParagraph.vue"
+  },
+  "SuggestDetailTitle": {
+    "description": "Auto imported from components/SuggestDetailTitle.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "SharedGlobalFooter": {
+    "description": "Auto imported from components/shared/GlobalFooter.vue"
+  },
+  "SharedGlobalHeader": {
+    "description": "Auto imported from components/shared/GlobalHeader.vue"
+  },
+  "SharedGlobalMain": {
+    "description": "Auto imported from components/shared/GlobalMain.vue"
+  },
+  "SharedStatusBar": {
+    "description": "Auto imported from components/shared/StatusBar.vue"
+  }
+}

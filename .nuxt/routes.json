@@ -1,0 +1,198 @@
+[
+  {
+    "name": "announce-detail",
+    "path": "/announce-detail",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/announce-detail.vue",
+    "chunkName": "pages/announce-detail",
+    "_name": "_52ad7b9c"
+  },
+  {
+    "name": "announce-list",
+    "path": "/announce-list",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/announce-list.vue",
+    "chunkName": "pages/announce-list",
+    "_name": "_23244a3f"
+  },
+  {
+    "name": "excavation-detail",
+    "path": "/excavation-detail",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/excavation-detail.vue",
+    "chunkName": "pages/excavation-detail",
+    "_name": "_a1e9e1aa"
+  },
+  {
+    "name": "excavation-list",
+    "path": "/excavation-list",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/excavation-list.vue",
+    "chunkName": "pages/excavation-list",
+    "_name": "_8551fd10"
+  },
+  {
+    "name": "excavation-register",
+    "path": "/excavation-register",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/excavation-register.vue",
+    "chunkName": "pages/excavation-register",
+    "_name": "_5bb8f806"
+  },
+  {
+    "name": "freeboard-detail",
+    "path": "/freeboard-detail",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/freeboard-detail.vue",
+    "chunkName": "pages/freeboard-detail",
+    "_name": "_9a262a52"
+  },
+  {
+    "name": "freeboard-list",
+    "path": "/freeboard-list",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/freeboard-list.vue",
+    "chunkName": "pages/freeboard-list",
+    "_name": "_85d84fb8"
+  },
+  {
+    "name": "freeboard-register",
+    "path": "/freeboard-register",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/freeboard-register.vue",
+    "chunkName": "pages/freeboard-register",
+    "_name": "_64fd24a9"
+  },
+  {
+    "name": "kakao",
+    "path": "/kakao",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/kakao.vue",
+    "chunkName": "pages/kakao",
+    "_name": "_2486b000"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/login/index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_7e03fda9"
+  },
+  {
+    "name": "naver",
+    "path": "/naver",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/naver.vue",
+    "chunkName": "pages/naver",
+    "_name": "_1127ac66"
+  },
+  {
+    "name": "notice",
+    "path": "/notice",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/notice.vue",
+    "chunkName": "pages/notice",
+    "_name": "_0209482a"
+  },
+  {
+    "name": "notice-detail",
+    "path": "/notice-detail",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/notice-detail.vue",
+    "chunkName": "pages/notice-detail",
+    "_name": "_7b9a69a3"
+  },
+  {
+    "name": "oauth",
+    "path": "/oauth",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/oauth.vue",
+    "chunkName": "pages/oauth",
+    "_name": "_6fd623d4"
+  },
+  {
+    "name": "partners",
+    "path": "/partners",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/partners.vue",
+    "chunkName": "pages/partners",
+    "_name": "_793fad7e"
+  },
+  {
+    "name": "platform-intro",
+    "path": "/platform-intro",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/platform-intro.vue",
+    "chunkName": "pages/platform-intro",
+    "_name": "_83cda4b6"
+  },
+  {
+    "name": "privacy",
+    "path": "/privacy",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/privacy.vue",
+    "chunkName": "pages/privacy",
+    "_name": "_655e6305"
+  },
+  {
+    "name": "signup",
+    "path": "/signup",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/signup.vue",
+    "chunkName": "pages/signup",
+    "_name": "_2c32162b"
+  },
+  {
+    "name": "suggest-detail",
+    "path": "/suggest-detail",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/suggest-detail.vue",
+    "chunkName": "pages/suggest-detail",
+    "_name": "_3258a066"
+  },
+  {
+    "name": "suggest-list",
+    "path": "/suggest-list",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/suggest-list.vue",
+    "chunkName": "pages/suggest-list",
+    "_name": "_4a993acc"
+  },
+  {
+    "name": "suggest-register",
+    "path": "/suggest-register",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/suggest-register.vue",
+    "chunkName": "pages/suggest-register",
+    "_name": "_3a46841f"
+  },
+  {
+    "name": "survey",
+    "path": "/survey",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/survey.vue",
+    "chunkName": "pages/survey",
+    "_name": "_22775b6d"
+  },
+  {
+    "name": "survey-detail",
+    "path": "/survey-detail",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/survey-detail.vue",
+    "chunkName": "pages/survey-detail",
+    "_name": "_d86b583e"
+  },
+  {
+    "name": "terms",
+    "path": "/terms",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/terms.vue",
+    "chunkName": "pages/terms",
+    "_name": "_4aa766c4"
+  },
+  {
+    "name": "user-info",
+    "path": "/user-info",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/user-info.vue",
+    "chunkName": "pages/user-info",
+    "_name": "_7d62a7ad"
+  },
+  {
+    "name": "login-kakao",
+    "path": "/login/kakao",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/login/kakao.vue",
+    "chunkName": "pages/login/kakao",
+    "_name": "_69d205cc"
+  },
+  {
+    "name": "login-naver",
+    "path": "/login/naver",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/login/naver.vue",
+    "chunkName": "pages/login/naver",
+    "_name": "_56730232"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/mirzaevmuzaffar/Desktop/nuxtjsapp/youthtory 6.0/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_beacaee2"
+  }
+]

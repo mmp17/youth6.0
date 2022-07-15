@@ -160,7 +160,7 @@ export default {
     const pcRealizedData = this.main.realizedPropoList.length;
     const pcSlidesPerView = pcRealizedData > 3 ? 3 : pcRealizedData;
     this.swiperOption.slidesPerView = this.isMobileSize ? 1 : pcSlidesPerView;
-    this.ipFinder();
+    // this.ipFinder();
   },
   methods: {
     convertNewLine(str) {
@@ -171,67 +171,67 @@ export default {
       }
     },
 
-    storeIPaddressesToCookies(ipaddess) {
-      const _cookieName = "addresses";
-      var cookies = this.getCookie(_cookieName);
-      //it says some address cookie exists
-      if (cookies) {
-        // console.log(cookies);
-        var cookieArray = cookies.split(",");
-        // console.log(cookieArray);
-        // console.log(cookieArray.includes(ipaddess));
-        var isIPorIncluded = cookieArray.includes(ipaddess);
-        if (isIPorIncluded) {
-        } else {
-          //if addresses existed but IP never recorded
-          this.generateHitCount();
-          address = [cookies];
-          address.push(ipaddess);
-          document.cookie = _cookieName + "=" + address;
-        }
-      } else {
-        //if addresses never existed in cookie
-        this.generateHitCount();
-        address = [];
-        address.push(ipaddess);
-        document.cookie = _cookieName + "=" + address;
-      }
-    },
+    // storeIPaddressesToCookies(ipaddess) {
+    //   const _cookieName = "addresses";
+    //   var cookies = this.getCookie(_cookieName);
+    //   //it says some address cookie exists
+    //   if (cookies) {
+    //     // console.log(cookies);
+    //     var cookieArray = cookies.split(",");
+    //     // console.log(cookieArray);
+    //     // console.log(cookieArray.includes(ipaddess));
+    //     var isIPorIncluded = cookieArray.includes(ipaddess);
+    //     if (isIPorIncluded) {
+    //     } else {
+    //       //if addresses existed but IP never recorded
+    //       this.generateHitCount();
+    //       address = [cookies];
+    //       address.push(ipaddess);
+    //       document.cookie = _cookieName + "=" + address;
+    //     }
+    //   } else {
+    //     //if addresses never existed in cookie
+    //     this.generateHitCount();
+    //     address = [];
+    //     address.push(ipaddess);
+    //     document.cookie = _cookieName + "=" + address;
+    //   }
+    // },
 
-    getCookie(name) {
-      var pattern = RegExp(name + "=.[^;]*");
-      var matched = document.cookie.match(pattern);
-      if (matched) {
-        var cookie = matched[0].split("=");
-        return cookie[1];
-      }
-      return false;
-    },
-    generateHitCount() {
-      // console.log('Function CALLED')
-      const config = {
-        headers: {
-          Accept: "application/json",
-        },
-      };
+    // getCookie(name) {
+    //   var pattern = RegExp(name + "=.[^;]*");
+    //   var matched = document.cookie.match(pattern);
+    //   if (matched) {
+    //     var cookie = matched[0].split("=");
+    //     return cookie[1];
+    //   }
+    //   return false;
+    // },
+    // generateHitCount() {
+    //   // console.log('Function CALLED')
+    //   const config = {
+    //     headers: {
+    //       Accept: "application/json",
+    //     },
+    //   };
 
-      fetch("https://youthapi.co.kr/visit/visit_record.do", config)
-        .then((res) => res.json())
-        .then((data) => {
-          // hitCounter.innerHTML = data;
-          // console.log(data);
-        });
-    },
-    async ipFinder() {
-      var ip = await $.getJSON("https://api.ipify.org?format=json", function (data) {
-        // Setting text of element P with id gfg
-        // $("#gfg").html(data.ip);
-        // this.storeIPaddressesToCookies(data.ip);
-        return data.ip
-      });
-      console.log(ip.ip)
-      this.storeIPaddressesToCookies(ip.ip);
-    },
+    //   fetch("https://youthapi.co.kr/visit/visit_record.do", config)
+    //     .then((res) => res.json())
+    //     .then((data) => {
+    //       // hitCounter.innerHTML = data;
+    //       // console.log(data);
+    //     });
+    // },
+    // async ipFinder() {
+    //   var ip = await $.getJSON("https://api.ipify.org?format=json", function (data) {
+    //     // Setting text of element P with id gfg
+    //     // $("#gfg").html(data.ip);
+    //     // this.storeIPaddressesToCookies(data.ip);
+    //     return data.ip
+    //   });
+    //   console.log(ip.ip)
+    //   this.storeIPaddressesToCookies(ip.ip);
+    // },
   },
 };
 </script>

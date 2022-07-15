@@ -1,6 +1,6 @@
 <template>
   <div class="suggest-page">
-    <span v-if="isChildren==''"><GlobalMain title="의제발굴" /></span>
+    <span v-if="isChildren==''"><GlobalMain title="함께 고민해요" /></span>
     <span v-else><GlobalMain title="의제발굴 (어린이)" /></span>
     <section class="suggest-types">
       <div v-for="category in categoryMenus" :key="category.src">

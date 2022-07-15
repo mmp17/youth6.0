@@ -1,6 +1,6 @@
 <template>
   <div class="notice-page">
-    <GlobalMain title="천안시 청소년 유관기관 소개" />
+    <GlobalMain title="천안시 청소년기관" />
     <div class="suggest-detail">
       <div class="partners-cont">
         <div class="partners-img-cont">
