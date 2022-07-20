@@ -212,7 +212,7 @@ export default {
     },
     handleKakaoLogin () {
       window.Kakao.Auth.authorize({
-        redirectUri: 'http://localhost:3030/signup'
+        redirectUri: 'https://www.dorannuri.co.kr/login/kakao' 
       })
     },
     goPage (path) {
