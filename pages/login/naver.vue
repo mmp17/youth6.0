@@ -23,7 +23,7 @@ export default {
     }
   },
   async mounted () {
-    const naverIdLogin = new window.naver_id_login('LRyrn7vuSLJFc8fFs9cz', 'https://www.dorannuri.co.kr/login/naver')
+    const naverIdLogin = new window.naver_id_login('HKHwkmhqjhOQ5jy4tD3c', 'http://localhost:3030/login/naver')
     const accessToken = naverIdLogin.getAccessToken()
     const res = await this.$axios.$get('user/user_insert_sns.do', {
       params: {
