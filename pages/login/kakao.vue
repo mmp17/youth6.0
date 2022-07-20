@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>kakao login page</h1>
+    <h1>
+      kakao login page
+      </h1>
     <el-button
       v-loading.fullscreen.lock="fullscreenLoading"
       type="primary"
