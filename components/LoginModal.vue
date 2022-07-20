@@ -73,7 +73,7 @@ export default {
     }),
     kakaoLoginLink () {
       const kakaoClientId = 'd70a047f4d2a4a76ee7fe93bb10094d0'
-      const kakaoRedirectUri = process.env.NODE_ENV === 'production' ? 'https://www.youthtory.co.kr/login/kakao' : 'http://localhost:3030/login/kakao'
+      const kakaoRedirectUri = process.env.NODE_ENV === 'production' ? 'https://www.dorannuri.co.kr/login/kakao' : 'http://localhost:3030/login/kakao'
       return `https://kauth.kakao.com/oauth/authorize?client_id=${kakaoClientId}&redirect_uri=${kakaoRedirectUri}&response_type=code`
     },
     facebookAppId () {
@@ -98,7 +98,7 @@ export default {
     ]),
     handleSns (type) {
       if (type === 'naver') {
-        const callbackUrl = process.env.NODE_ENV === 'production' ? 'https://www.youthtory.co.kr/login/naver' : 'http://localhost:3030/login/naver'
+        const callbackUrl = process.env.NODE_ENV === 'production' ? 'https://www.dorannuri.co.kr/login/naver' : 'http://localhost:3030/login/naver'
         const clientId = process.env.NODE_ENV === 'production' ? 'LRyrn7vuSLJFc8fFs9cz' : 'HKHwkmhqjhOQ5jy4tD3c'
         // eslint-disable-next-line new-cap
         const naverIdLogin = new window.naver_id_login(clientId, callbackUrl)
