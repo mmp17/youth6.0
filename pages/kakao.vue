@@ -9,7 +9,7 @@ export default {
         params: {
           grant_type: 'authorization_code',
           client_id: '0814d058ce732a3b3fc2f5d3c7adf885',
-          redirect_uri: 'http://localhost:3030/oauth',
+          redirect_uri: 'https://www.dorannuri.co.kr/oauth',
           code: query.code
         },
         headers: {
