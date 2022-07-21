@@ -43,7 +43,7 @@ export default {
         password: ''
       },
       client_id: '0814d058ce732a3b3fc2f5d3c7adf885',
-      redirect_uri: 'https://www.dorannuri.co.kr/oauth'
+      redirect_uri: 'https://www.dorannuri.co.kr/login/kakao'
     }
   },
   computed: {
