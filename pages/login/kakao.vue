@@ -40,11 +40,12 @@ export default {
         }
       })
       const { access_token: accessToken } = tokenResponse.data
-      await this.$axios.$get('/user/user_insert_sns_kakao.do', {
+      var response = await this.$axios.$get('/user/user_insert_sns_kakao.do', {
         params: {
           access_token: accessToken
         }
       })
+      await this.$store.commit('SET_USER_INFO', response)
     } catch (e) {
 
     }
