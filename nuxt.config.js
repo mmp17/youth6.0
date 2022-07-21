@@ -58,7 +58,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: process.env.NODE_ENV === 'development' ? 'http://115.85.180.96:8080' : 'https://dorannuri.co.kr'
+    baseURL: process.env.NODE_ENV === 'development' ? 'http://115.85.180.96:8080' : 'https://youthapi.co.kr'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
