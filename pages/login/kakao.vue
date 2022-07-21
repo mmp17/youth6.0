@@ -46,6 +46,7 @@ export default {
         }
       })
       await this.$store.commit('SET_USER_INFO', response)
+      this.$router.push('/')
     } catch (e) {
 
     }
