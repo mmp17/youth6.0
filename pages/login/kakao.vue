@@ -45,6 +45,7 @@ export default {
           access_token: accessToken
         }
       })
+      localStorage.setItem('idx', response.idx)
       await this.$store.commit('SET_USER_INFO', response)
       this.$router.push('/')
     } catch (e) {
