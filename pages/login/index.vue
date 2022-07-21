@@ -42,7 +42,7 @@ export default {
         id: '',
         password: ''
       },
-      client_id: '0814d058ce732a3b3fc2f5d3c7adf885',
+      client_id: 'c7537bd9df097d3246fe279af301babe',
       redirect_uri: 'https://www.dorannuri.co.kr/login/kakao'
     }
   },
