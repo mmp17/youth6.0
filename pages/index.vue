@@ -95,7 +95,6 @@ export default {
     return {
       main: res,
     };
-    console.log('MAIN in INDEX.vue'main)
   },
   data() {
     return {
