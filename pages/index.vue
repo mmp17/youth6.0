@@ -23,7 +23,7 @@
           <h3>공지사항</h3>
           <i class="el-icon-circle-plus-outline" />
         </div>
-        <div v-for="notice in main.notiList" :key="notice.idx" class="content">
+        <div v-for="notice in notices" :key="notice.idx" class="content">
           <nuxt-link :to="`/announce-detail?idx=${notice.idx}`">
             - {{ notice.noti_sub }}
           </nuxt-link>
@@ -32,7 +32,7 @@
       <div class="popular-suggest">
         <nuxt-link :to="`/suggest-detail?idx=${main.topAgreePropoList[0].idx}`">
           <div class="title">
-            <h3>인기있는 제안 !</h3>
+            <h3>인기있는 제안</h3>
             <i class="el-icon-circle-plus-outline" />
           </div>
           <div class="content">
@@ -78,7 +78,7 @@
     </section>
   </div>
 </template>
-
+<!-- https://youthapi.co.kr/noticenoti/noticenoti_list.do -->
 <script>
 import { Swiper, SwiperSlide } from "vue-awesome-swiper";
 import { mapGetters } from "vuex";
@@ -88,12 +88,16 @@ import dayjs from "dayjs";
 export default {
   components: {
     Swiper,
-    SwiperSlide,
+    SwiperSlide
   },
   async asyncData(context) {
     const res = await context.app.$axios.$get("/main/main.do");
+    const noticelist = await context.app.$axios.$get(
+      "/noticenoti/noticenoti_list.do"
+    );
     return {
       main: res,
+      notices: noticelist
     };
   },
   data() {
@@ -102,35 +106,35 @@ export default {
         slidesPerView: 1,
         navigation: {
           nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
+          prevEl: ".swiper-button-prev"
+        }
       },
       categorys: {
         전체: {
           src: require("~/assets/images/suggest-all.png"),
-          label: "전체",
+          label: "전체"
         },
         교육: {
           src: require("~/assets/images/suggest-edu.png"),
-          label: "교육",
+          label: "교육"
         },
         문화: {
           src: require("~/assets/images/suggest-culture.png"),
-          label: "문화",
+          label: "문화"
         },
         환경: {
           src: require("~/assets/images/suggest-environment.png"),
-          label: "환경",
+          label: "환경"
         },
         안전: {
           src: require("~/assets/images/suggest-safety.png"),
-          label: "안전",
+          label: "안전"
         },
         기타: {
           src: require("~/assets/images/suggest-etc.png"),
-          label: "기타",
-        },
-      },
+          label: "기타"
+        }
+      }
     };
   },
   computed: {
@@ -148,13 +152,13 @@ export default {
     survParticipationRate() {
       const {
         surv_participants_num: survParticipantsNum,
-        surv_target_num: survTargetNum,
+        surv_target_num: survTargetNum
       } = this.main;
       return (survParticipantsNum / survTargetNum) * 100;
     },
     toAgreeSuggest() {
       return this.main.topAgreePropoList[0];
-    },
+    }
   },
   created() {
     const pcRealizedData = this.main.realizedPropoList.length;
@@ -169,7 +173,7 @@ export default {
       } catch (e) {
         return str;
       }
-    },
+    }
 
     // storeIPaddressesToCookies(ipaddess) {
     //   const _cookieName = "addresses";
@@ -232,6 +236,6 @@ export default {
     //   console.log(ip.ip)
     //   this.storeIPaddressesToCookies(ip.ip);
     // },
-  },
+  }
 };
 </script>
