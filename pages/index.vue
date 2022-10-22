@@ -32,7 +32,7 @@
       <div class="popular-suggest">
         <nuxt-link :to="`/suggest-detail?idx=${main.topAgreePropoList[0].idx}`">
           <div class="title">
-            <h3>인기있는 제안</h3>
+            <h3>인기있는 제안 !</h3>
             <i class="el-icon-circle-plus-outline" />
           </div>
           <div class="content">
